@@ -1,4 +1,7 @@
 
+import React from 'react'
+
+
 function ProjectCard({tags, name,desc, link, year,id}) {
 
   function calculateDelay() {
@@ -21,7 +24,7 @@ function ProjectCard({tags, name,desc, link, year,id}) {
       <div className="skills-used gap-2 flex flex-row items-center justify-start">
         {tags.map((tag)=> {
           return (
-            <img src={`./images/icons/${tag}.png`}></img>
+            <img style={{height:'30px', width:'30px'}} src={`./images/icons/${tag}.png`}></img>
           )
         })}
       </div>

@@ -1,4 +1,5 @@
 import VertTimeline from "../components/vertTimeline.jsx"
+import React from 'react'
 
 function TimelinePage() {
   return (

@@ -1,5 +1,4 @@
-import * as THREE from 'Three';
-
+import * as THREE from 'three';
 
 export function setUp() {
   const scene = new THREE.Scene();

@@ -2,6 +2,8 @@ import { useState, useEffect } from "react";
 import ProjectCard from "../components/projectCard";
 import SkillButton from "../components/skillButton";
 
+import React from 'react'
+
 function Projects({projects}) {
   const skills = [
     { name: "HTML5", imgPath: "HTML5.png" },
@@ -9,7 +11,9 @@ function Projects({projects}) {
     { name: "JS", imgPath: "JS.png" },
     { name: "ReactJS", imgPath: "ReactJS.png" },
     { name: "Laravel", imgPath: "Laravel.png" },
-    { name: "MySQL", imgPath: "MySQL.png" }
+    { name: "MySQL", imgPath: "MySQL.png" }, 
+    { name: "Kotlin", imgPath : "Kotlin.png"}, 
+    { name : "Firebase", imgPath : "Firebase.png"}
   ];
 
   

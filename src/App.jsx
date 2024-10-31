@@ -1,4 +1,5 @@
 import './App.css';
+import React from 'react'
 import Navbar from "./components/navbar.jsx";
 import  {useEffect, useState, useRef} from 'react';
 import {setUp} from './utils/balls.js'
@@ -51,7 +52,16 @@ function App() {
       desc:"Website artistik yang menunjukkan berbagai budaya Indonesia. Bagian yang dikerjakan: Halaman 4 dan 5",
       githubLink:"https://github.com/kevinh11/fokus-2023-budaya",
       tags: ["ReactJS","CSS3"]
-    }
+    }, 
+    {
+      id:5,
+      name:"GeoMinder (on progress)",
+      year:2024,
+      desc:"Sebuah aplikasi note berbasis geolokasi yang dapat memberikan pengingat jika pengguna dekat dengan suatu tempat, yang dibuat dalam kelompok 4 orang",
+      githubLink:"https://github.com/C-4NDR3W/GeoMinder.git",
+      tags: ["Kotlin","Firebase"]
+    }, 
+
 
   ];
   function updateViewport() {

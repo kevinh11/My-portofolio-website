@@ -1,3 +1,5 @@
+import React from 'react'
+
 import { useState, useEffect } from "react";
 
 function SkillButton({ func, path, skillName }) {
@@ -26,7 +28,7 @@ function SkillButton({ func, path, skillName }) {
       id={`${skillName}-button`}
       className="category-button basis-1/3 md:basis-1/5 flex flex-row items-center"
     >
-      <img src={`./images/icons/${path}`} alt={skillName} />
+      <img style={{height:'30px', width:'30px'}}src={`./images/icons/${path}`} alt={skillName} />
       {skillName}
     </button>
   );

@@ -1,4 +1,6 @@
 import { useEffect } from "react";
+import React from 'react'
+
 function Hero({ scrollFunction}) {
     
   return(
